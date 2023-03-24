@@ -4,7 +4,7 @@ info:
   title: Weather Info
   version: 1.0.0
   description: >-
-    An application that gathers information from different APIs and used to
+    An application that gathers information from different APIs that is used to
     render an HTML page. 
 paths:
   /weather/{location}:
