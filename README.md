@@ -1,4 +1,4 @@
-# WeatherApi
+# Weather API
 ### openapi: 3.0.3
 
 **info:**
