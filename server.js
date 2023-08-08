@@ -36,7 +36,7 @@ const req =  http.request(options, (res) => {
       //uses countryflagsapi.com to get the link to the flag of the country...
       const img='https://countryflagsapi.com/png/'+ country;
 
-      resp.render('view', {'country':country,'tempF':tempF, 'img':img, 'tempC':tempC, 'condition':condition })
+      resp.render('view', {'country':country,'tempF':tempF, 'tempC':tempC, 'condition':condition })
      });
     
      res.on('end', () => {
